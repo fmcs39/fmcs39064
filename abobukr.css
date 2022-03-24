@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #fff;
+    direction: rtl;
+    background:rgba(155, 110, 110, 0.651);
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+ }
+ul {
+margin: 0px;
+padding: 0;
+}
+header {
+    background: #353535;
+    color: #fff;
+    padding-top: 30px ;
+    min-height: 70px;
+    border-bottom:#32e0c2 5px solid;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+}
+header li {
+    float: right;
+    display:inline ;
+    padding: 0px 20px 0px 20px;
+
+}
+header #brand {
+    float: right;
+}
+header #brand h1{
+    margin: 0;
+   color: #32a0c2 ; 
+}
+header nav {
+    float: left;
+    margin-top: 10px;
+}
+header .current a {
+    color: #32e0c2;
+    font-weight: bold;
+}
+header .a a {
+    color: #32e0c3;
+}
+header a:hover{
+    color: #ccc;
+}
+#showcase {
+    min-height: 400px;
+    background: url(img/programmer-typing-code-on-desktop-1769703.jpg)  no-repeat center;
+    background-size: cover;
+}
+#boxes img {
+    width: 300px;
+    height: 200px;
+}
+#newletter {
+    padding: 15px;
+    color: white;
+    background-color: #353635;
+}
+#newletter h1 {
+    float: right;
+}
+#newletter form {
+    float: left;
+    margin-top: 15px;
+
+}
+#newletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+button {
+    height: 38px;
+    background: rgba(255, 255, 255, 0.651);
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #353635;
+}
+#boxes {
+    margin-top:px ;
+}
+#boxes .box  {
+    float: right;
+    text-align: center;
+    width: 30%;
+    padding:10px ;
+}
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background: #32a0c2;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: monospace, sans-serif;
+    border-radius: 20px;
+}

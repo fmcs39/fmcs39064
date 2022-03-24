@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="factor.js"></script>
+<body>
+     <div>
+         <form class="as">
+             <label for="">الرقم</label> <input type="text" id="frestnam" value=""><br>
+             <button onclick="fac()">cal</button>
+         </form>
+     </div>
+ 
+<form action=""> 
+    <div> <label  for="picer" > <h2>اضف صورة شخصي</h2></lable> <input type="file" id="picer" > </div>
+     <div style="text-align: center;" >
+         <a style="padding: 300px;"> الجنس:-
+         </a><br><a style="padding: 300px;">    ذكر
+             <input type="radio" name ="anass">
+             انثى <input type="radio" name="anass" checked=checked  value=male>
+      </div></a>
+     <div style="text-align: center;" >
+       <h2> <label for="name">اسم :</label> <input type="text" id="name"required  placeholder="write Name "> </h2> 
+       <h2> <label for="number">رقم التلفون:</label> <input type="text"id="number" placeholder="write 0-9" required> </h2> 
+       <h2> <label for="passawrod">رقم السري :</label> <input type="password" id="passawrod" name="pass" translate="yes"required  placeholder="write acomplex passwrod"> </h2> 
+       <h2> <label for="pas"> تأكيد رقم السري :</label> <input type="password" id="pas" required  placeholder="write acomplex passwrod"> </h2> 
+       <h2> <label for="Email">الايميل :</label> <input type="email" id="Email" placeholder="Em@il"> </h2> 
+       <h2> <label for="date"> تاريخ الميلاد :</label> <input type="date" id="date"> </h2> 
+        <button type="reset" > مسح البيانات</button>   <button type="submit"> حفظ</button>  
+
+    </div>
+  </form>
+  <p> select were color: </p>
+
+
+  <input type="color" name="" oninput="oo()"  id="c">
+  <script>
+      function oo() {
+          let c = document.getElementById('c').value;
+          document.body.style.background = c;
+      }
+
+  </script>
+</body>
+
+</html>
